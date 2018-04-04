@@ -5,6 +5,9 @@
   "version": "0.3.3",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://webproxy/repository/npm-hosted/"
+  },
   "scripts": {
     "prepublish": "node scripts/build-deps.js"
   },
